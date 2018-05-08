@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
@@ -14,4 +14,13 @@
     Take a look at the <code>src/pages/</code> directory to add or change tabs,
     update any existing page or create new pages.
   </p>
+   <button mat-button icon-right  (click)="showAlert()"  >Show Alert
+    <ion-icon name="alert"></ion-icon>
+   </button>
+<button mat-button>Click me!</button>
+    <button  mat-button  (click)="showConfirm()">Show Confirm</button>
+      <button   mat-button  (click)="showPrompt()">Show  Prompt</button>
+        <button   mat-button (click)="showActions()">Show Actions</button>
+
+        <button mat-button round (click)="toaster()" >Toast</button>
 </ion-content>

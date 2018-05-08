@@ -1,0 +1,11 @@
+ {
+"appId":"com.sp.app",
+"appName":"comspapp",
+"bundledWebRuntime":false,
+"webDir":"www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 5000
+    }
+  }
+}
